@@ -361,8 +361,8 @@
 										<div class="row">
 											<div class="col-md-6">
 												<div class="card-body">
-													<form action="https://formspree.io/your@email.com" method="POST">
-														<div class="p pb-3"><strong>Feel free to contact me </strong><br /><b style="color:red">Form functionality not yet active</b></div>
+													<form  class="gform" action="https://script.google.com/macros/s/AKfycbyxcnB2wU-RUKQ6VtVt-OUqDVqjAQhautZLcCVB/exec" method="POST">
+														<div class="p pb-3"><strong>Feel free to contact me </strong><br /></div>
 														<div class="row mb-3">
 															<div class="col">
 																<div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
@@ -393,7 +393,8 @@
 														</div>
 														<div class="row">
 															<div class="col">
-																<button disabled class="btn btn-primary" type="submit">Send</button>
+																<div id="emailSentResponse" style="display: none" class="alert alert-primary"></div>
+																<button class="btn btn-primary" type="submit">Send</button>
 															</div>
 														</div>
 													</form>
